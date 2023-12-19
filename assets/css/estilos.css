@@ -14,8 +14,8 @@ body {
 }
 
 .container p {
-   font-size: 50px;
-   color: #fff;
+    font-size: 50px;
+    color: #fff;
 }
 
 .center-text {
@@ -43,4 +43,10 @@ button {
 .create-button {
     background-color: #494eea;
     color: white;
+}
+
+@media (min-width:480px) {
+    .create-button {
+        margin-bottom: 5px;
+    }
 }

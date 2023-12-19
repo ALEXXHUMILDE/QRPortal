@@ -6,18 +6,18 @@ const wrapper = document.querySelector(".wrapper"),
     copyBtn = document.querySelector(".copy");
 
 function fetchRequest(file, formData) {
-    infoText.innerText = "Escaneando el Código QR...";
+    infoText.innerText = "Escaneando Código QR...";
     fetch("http://api.qrserver.com/v1/read-qr-code/", {
         method: 'POST', body: formData
     }).then(res => res.json()).then(result => {
         result = result[0].symbol[0].data;
-        infoText.innerText = result ? "Subir el Código QR para escanearlo" : "No se puedo escanear el Código QR...";
-        if (!result) return;
+        infoText.innerText = result ? "Recargando..." : "La imagen no es un Código QR.";
+        if (!result) return
         document.querySelector("textarea").innerText = result;
         form.querySelector("img").src = URL.createObjectURL(file);
         wrapper.classList.add("active");
     }).catch(() => {
-        infoText.innerText = "No se puedo escanear el Código QR...";
+        infoText.innerText = "No se pudo escanear la imagen."
     });
 }
 
@@ -32,7 +32,11 @@ fileInp.addEventListener("change", async e => {
 copyBtn.addEventListener("click", () => {
     let text = document.querySelector("textarea").textContent;
     navigator.clipboard.writeText(text);
-});
+})
 
 form.addEventListener("click", () => fileInp.click());
-closeBtn.addEventListener("click", () => wrapper.classList.remove("active"));
+
+closeBtn.addEventListener("click", () => {
+    wrapper.classList.remove("active");
+    setInterval("location.reload()", 1000);
+})

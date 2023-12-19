@@ -92,3 +92,10 @@ body {
         transform: translateX(0);
     }
 }
+
+@media (min-width:480px) {
+    .container {
+        width: 380px;
+        padding: 23px 33px;
+    }
+}

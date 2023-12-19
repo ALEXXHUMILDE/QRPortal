@@ -1,0 +1,39 @@
+[[redirects]]
+from = "/inicio"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/escanear"
+to = "/escanear-qr.html"
+status = 301
+
+[[redirects]]
+from = "/generar"
+to = "//generar-qr.html"
+status = 301
+
+[[redirects]]
+from = "/escanear-qr"
+to = "//escanear-qr.html"
+status = 301
+
+[[redirects]]
+from = "/generar-qr"
+to = "//generar-qr.html"
+status = 301
+
+[[redirects]]
+from = "/escanearqr"
+to = "//escanear-qr.html"
+status = 301
+
+[[redirects]]
+from = "/generarqr"
+to = "//generar-qr.html"
+status = 301
+
+[[redirects]]
+from = "/404"
+to = "/404.html"
+status = 404
