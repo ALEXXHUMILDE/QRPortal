@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="shortcut icon" href="img/logo-qr.png" type="">
+    <meta data-n-head='ssr' data-hid='theme-color' name='theme-color' content='#000'>
+    <meta data-n-head='ssr' data-hid='og:type' name='og:type' content='website'>
+    <meta data-n-head='ssr' data-hid='og:title' name='og:title' content='QRPortal'>
+    <meta data-n-head='ssr' data-hid='og:url' name='og:url' content='https://qrportal.netlify.app'>
+    <meta data-n-head='ssr' data-hid='description' name='description'
+        content='¡Genera y escanea tus Códigos QR en esta web!'>
+    <meta data-n-head='ssr' data-hid='og:description' name='og:description'
+        content='¡Genera y escanea tus Códigos QR en esta web!'>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QRPortal</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css">
     <link rel="stylesheet" href="./assets/css/estilos.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
 </head>
 <body>
 
@@ -23,6 +33,34 @@
     </div>
 </div>
 
+<footer class="footer">
+    <div class="cluster-1">
+        <div class="box">
+            <figure>
+                <a href="/">
+                    <img src="img/logo-qr.png" alt="Logo de SLee Dw">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2>SOBRE LA WEB</h2>
+            <p>La web fue creado con el objetivo de que las personas crearan y escanearan su Código QR de forma más fácil, y en una sola página, ¡sin ir a otra!</p>
+        </div>
+        <div class="box">
+            <h2>REDES SOCIALES DEL DESARROLLADOR</h2>
+            <div class="social">
+                <a href="https://alexxhumilde.pages.dev" class="fa fa-globe"></a>
+                <a href="https://enlaces-alexxhumilde.pages.dev" class="fa fa-plus"></a>
+                <a href="https://x.com/HUMILDEALEXX" class="fa fa-twitter"></a>
+                <a href="https://github.com/ALEXXHUMILDE" class="fa fa-github"></a>
+            </div>
+        </div>
+    </div>
+    <div class="cluster-2">
+        <small>&copy; 2023 <b>ALEXXHUMILDE</b> - Todos los Derechos Reservados.</small>
+    </div>
+</footer>
+
 <script>
      function goToScanPage() {
         window.location.href = "escanear-qr.html";
@@ -32,6 +70,8 @@
         window.location.href = "generar-qr.html";
     }
 </script>
+
+<script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
