@@ -1,6 +1,6 @@
 # Template de Web de Creación y Escaneo de Códigos QR
 
-Este template proporciona una interfaz web básica para crear y escanear códigos QR. No utiliza ninguna dependencia de npm y utiliza la API de [QR](https://api.qrserver.com/) para generar y escanear los códigos QR.
+Este template proporciona una interfaz web básica para crear y escanear códigos QR. No utiliza ninguna dependencia de npm y utiliza la API de [QRServer](https://api.qrserver.com/) para generar y escanear los códigos QR.
 
 ## Características
 
@@ -11,7 +11,7 @@ Este template proporciona una interfaz web básica para crear y escanear código
 
 - Tener instalado [Visual Studio Code](https://code.visualstudio.com/) (VSC) o usar [Replit](https://replit.com/) u otra plataforma web similar.
 
-##¿Como visualizar la pagina web?
+## ¿Cómo visualizar la página web?
 
 ### Clonar el repositorio de GitHub
 
@@ -39,7 +39,7 @@ git clone https://github.com/ALEXXHUMILDE/QRPortal.git
 
 ## Licencia 
 
--Este proyecto se distribuye bajo la licencia MIT. 
+- Este proyecto se distribuye bajo la licencia MIT. 
 
 ## Demostración
 
