@@ -29,7 +29,7 @@ git clone https://github.com/ALEXXHUMILDE/QRPortal.git
 
 - Para escanear un código QR, haz clic en el botón "Escanear un código QR" en la página principal. Se abrirá otra página y en ella habla un recuadro que dice "Sube tu Código QR" y le das clic al recuadro, buscas tu Código QR, lo pones en la página, y solo esperas a que se escanee y ya tendrás el Texto o URL de ese Código QR.
 
-- Lamentablemente, la API no escanea los Códigos QR en móvil, solo en PC. :(
+- Lamentablemente, la API no escanea los Códigos QR cuando la web esta subida, solo cuando está en un local server. :(
 
 ## Tecnologías utilizadas
 
